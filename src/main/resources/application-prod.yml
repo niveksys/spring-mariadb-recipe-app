@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/recipe_prod
+    username: recipe_prod
+    password: zse44rfv
+    platform: mariadb
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
